@@ -112,7 +112,7 @@ abstract class BaseRequestTest extends IntegrationTestHarness {
   }
 
   /**
-    * @param destination An optional SocketServer ot send the request to. If not set, any available server is used.
+    * @param destination An optional SocketServer to send the request to. If not set, any available server is used.
     * @param protocol An optional SecurityProtocol to use. If not set, PLAINTEXT is used.
     * @return A ByteBuffer containing the response (without the response header).
     */
